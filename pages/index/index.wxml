@@ -1,6 +1,5 @@
 <!--index.wxml-->
 <view class="container">
-  <!--image class="fruit" src="/pages/image/timg.jpg" background-size="cover"> </image-->
   <image class="fruit" src="{{myitem[index].image}}" background-size="cover"> </image>
   <view class="chossitem">
     <block>
