@@ -11,7 +11,7 @@ Page({
     state:1,
     myitem: [{ image: "/pages/image/caomei.jpg", choose: ["草莓","西瓜","苹果","香蕉"],anser:1},
              { image: "/pages/image/juzi.jpg", choose: ["草莓", "西瓜", "苹果", "桔子"], anser: 4 }],
-    index:0
+    index:0   
   },
   //事件处理函数    
   bindViewTap: function() {
