@@ -1,0 +1,26 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fruit {
+  width: 400rpx;
+  height: 256rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname1 {
+  color: #0ff;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.chossitem
+{
+   display: flex;  
+   flex-direction: row;  
+}

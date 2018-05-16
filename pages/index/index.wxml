@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+  <!--image class="fruit" src="/pages/image/timg.jpg" background-size="cover"> </image-->
+  <image class="fruit" src="{{myitem[index].image}}" background-size="cover"> </image>
+  <view class="chossitem">
+    <block>
+      <button bindtap='choose' data-id="1"> {{myitem[index].choose[0]}} </button>
+      <button bindtap='choose' data-id="2"> {{myitem[index].choose[1]}} </button>
+      <button bindtap='choose' data-id="3"> {{myitem[index].choose[2]}} </button>
+      <button bindtap='choose' data-id="4"> {{myitem[index].choose[3]}} </button>
+    </block>
+  </view>
+  <view>
+    <view wx:if="{{state==1}}">    请选择正确答案      </view>
+    <view wx:elif="{{state==2}}">    答案正确           </view>
+    <view wx:else="{{state==3}}">    答案错误           </view>
+  </view>
+  <view>
+    <button bindtap='next' > NEXT </button>
+  </view>
+</view>
